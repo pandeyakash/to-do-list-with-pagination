@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.active {
+  background-color: lightcoral;
+}
